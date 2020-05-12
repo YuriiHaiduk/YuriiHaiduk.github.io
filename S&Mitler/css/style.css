@@ -547,6 +547,10 @@ h1, h2, h3, h4, h5, h6 {
             transform: scale(1); } }
 
 .preloader {
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+  overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -805,10 +809,8 @@ h1, h2, h3, h4, h5, h6 {
     color: #F9C869; }
 
 .mm-listitem:after {
-  display: none; }
-
-body.mm-wrapper_opened {
-  overflow-y: scroll; }
+  background: transparent;
+  border: transparent; }
 
 .services .services-carousel {
   background-color: #1a1a1a; }
