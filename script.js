@@ -27,5 +27,9 @@ window.onload = function() {
 
     function insertMark(str, position, len) {
         return str.slice(0, position)+'<mark>'+str.slice(position, position+len)+'</mark>'+str.slice(position+len);
-    }
+    };
+
+    //    preloader
+        $('.preloader').delay(1000).fadeOut('slow');
+
 };
