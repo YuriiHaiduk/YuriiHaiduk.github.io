@@ -471,7 +471,7 @@ button {
   overflow: hidden; }
 
 .overlay {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -3177,7 +3177,7 @@ select {
       -ms-flex-align: center;
           align-items: center;
   z-index: 10;
-  position: fixed;
+  position: absolute;
   top: 25%;
   left: 50%;
   -webkit-transform: translate(-50%, 90px);
@@ -3439,7 +3439,7 @@ select {
         text-decoration: none; }
 
 .cart-popup {
-  position: fixed;
+  position: absolute;
   z-index: 10;
   top: 25%;
   left: 50%;
