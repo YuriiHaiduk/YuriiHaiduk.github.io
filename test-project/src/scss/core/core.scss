@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+  outline: none;
+  outline-width: 0;
+}
+body{
+  overflow-x: hidden;
+  font-family: $font-roboto;
+  font-size: 16px;
+  color:$black;
+  background-color: #f7f7f7;
+
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin:0 auto;
+}
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  min-height: 100vh;
+
+}
+.content {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+.footer{
+  z-index: 1;
+}
+
+@media(min-width: 992px){
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+}
+
+input::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+input{
+  outline: none;
+}
+button{
+  outline: none;
+  border:none;
+  background: none;
+}
