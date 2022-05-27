@@ -1,0 +1,21 @@
+@import "core/normalize.scss";
+@import "core/fonts.scss";
+@import "core/mixins.scss";
+@import "core/vars.scss";
+@import "core/core.scss";
+@import "components/header";
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Bold';
+  src: url('../assets/fonts/SamsungSharpSans-Bold.eot');
+  src: url('../assets/fonts/SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/SamsungSharpSans-Bold.woff2') format('woff2'),
+  url('../assets/fonts/SamsungSharpSans-Bold.woff') format('woff'),
+  url('../assets/fonts/SamsungSharpSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+//body{
+//  font-family: 'Samsung Sharp Sans Bold',sans-serif;
+//}

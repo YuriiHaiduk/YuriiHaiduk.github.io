@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Samsung Sharp Sans';
+    src: url('SamsungSharpSans-Medium.eot');
+    src: url('SamsungSharpSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('SamsungSharpSans-Medium.woff2') format('woff2'),
+        url('SamsungSharpSans-Medium.woff') format('woff'),
+        url('SamsungSharpSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sharp Sans';
+    src: url('SamsungSharpSans-Bold.eot');
+    src: url('SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SamsungSharpSans-Bold.woff2') format('woff2'),
+        url('SamsungSharpSans-Bold.woff') format('woff'),
+        url('SamsungSharpSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sharp Sans';
+    src: url('SamsungSharpSans.eot');
+    src: url('SamsungSharpSans.eot?#iefix') format('embedded-opentype'),
+        url('SamsungSharpSans.woff2') format('woff2'),
+        url('SamsungSharpSans.woff') format('woff'),
+        url('SamsungSharpSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

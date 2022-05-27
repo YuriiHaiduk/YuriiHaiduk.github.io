@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@font-face {
+  font-family: 'Samsung Sharp Sans Regular';
+  src: url('../assets/fonts/SamsungSharpSans.eot');
+  src: url('../assets/fonts/SamsungSharpSans.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/SamsungSharpSans.woff2') format('woff2'),
+  url('../assets/fonts/SamsungSharpSans.woff') format('woff'),
+  url('../assets/fonts/SamsungSharpSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+//@font-face {
+//  font-family: 'Samsung Sharp Sans Bold';
+//  src: url('../assets/fonts/SamsungSharpSans-Bold.eot');
+//  src: url('../assets/fonts/SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),
+//  url('../assets/fonts/SamsungSharpSans-Bold.woff2') format('woff2'),
+//  url('../assets/fonts/SamsungSharpSans-Bold.woff') format('woff'),
+//  url('../assets/fonts/SamsungSharpSans-Bold.ttf') format('truetype');
+//  font-weight: bold;
+//  font-style: normal;
+//  font-display: swap;
+//}
+
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Bold';
+  src: url('../assets/fonts/SamsungSharpSans-Bold.eot');
+  src: url('../assets/fonts/SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/SamsungSharpSans-Bold.woff2') format('woff2'),
+  url('../assets/fonts/SamsungSharpSans-Bold.woff') format('woff'),
+  url('../assets/fonts/SamsungSharpSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Samsung Sharp Sans Medium';
+  src: url('../assets/fonts/SamsungSharpSans-Medium.eot');
+  src: url('../assets/fonts/SamsungSharpSans-Medium.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/SamsungSharpSans-Medium.woff2') format('woff2'),
+  url('../assets/fonts/SamsungSharpSans-Medium.woff') format('woff'),
+  url('../assets/fonts/SamsungSharpSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
