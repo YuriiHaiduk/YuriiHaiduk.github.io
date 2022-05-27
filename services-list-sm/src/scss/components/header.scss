@@ -1,0 +1,334 @@
+.main-banner{
+  img{
+    @include img-cover;
+  }
+  .banner-desktop{
+    display: block;
+  }
+  .banner-mobile{
+    display: none;
+  }
+}
+
+@media(max-width: 767px){
+  .main-banner{
+    .banner-desktop{
+      display: none;
+    }
+    .banner-mobile{
+      display: block;
+    }
+  }
+}
+
+
+.start-menu{
+  &.close{
+    display: none;
+  }
+}
+
+.brand-info-list{
+  padding-top: 80px;
+}
+
+.brand-info-list-item{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.3s;
+  &:hover{
+    opacity: 0.7;
+  }
+  .brand-info-list-item-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 27px 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(0deg, #1f272f 0%, #1f354f 100%);
+    img{
+      @include img-cover;
+      object-fit: contain;
+    }
+  }
+  &__title{
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+  }
+  .brand-info-list-item__details{
+    display: block;
+    text-align: center;
+    margin: 0;
+    margin-top: 13px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+  }
+}
+
+.main-info-content-top-wrapper{
+  border-bottom:2px solid #eef0f2;
+  padding-bottom: 20px;
+}
+
+.main-info-content{
+  padding-top: 30px;
+  display: none;
+
+  &.open{
+    display: block;
+  }
+  .main-info-content-top{
+    display: flex;
+    align-items: center;
+    &__title{
+      font-size: 18px;
+      letter-spacing: 0px;
+      color: #000000;
+      text-align: center;
+      opacity: 0.6;
+      margin-right: 15px;
+    }
+    .tab-content-info{
+      display: flex;
+      align-items: center;
+      flex-wrap: nowrap;
+      &.nav-pills .nav-link{
+        position: relative;
+        height: 45px;
+        opacity: 0.5;
+        transition: opacity 0.4s;
+        img{
+          width: 100%;
+          object-fit: contain;
+        }
+        &:hover{
+          opacity: 1;
+        }
+      }
+      &.nav-pills .nav-link.active, .nav-pills {
+        background: transparent;
+        opacity: 1;
+        &::before{
+          content: '';
+          position: absolute;
+          left:0;
+          bottom:-30px;
+          width: 100%;
+          height: 8px;
+          background-color: #49b6e9;
+        }
+      }
+    }
+  }
+}
+
+.info-content{
+
+}
+
+.section--black{
+  background: #000000;
+  padding: 27px 0;
+ p{
+   margin: 0;
+   font-size: 12px;
+   letter-spacing: 0px;
+   line-height: 16px;
+   color: #ffffff;
+   text-align: center;
+ }
+}
+
+.content-info{
+  padding: 73px 0;
+  .content-info__title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 31px;
+  }
+  .content-info-main-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  .content-info__title-content{
+    font-family: $samsung-700;
+    font-size: 24px;
+    color: #000000;
+    margin:0;
+    margin-bottom: 20px;
+  }
+  .content-list{
+    .content-list-item{
+      display: flex;
+      align-items: flex-start;
+      font-size: 14px;
+      &:not(:last-child){
+        margin-bottom: 12px;
+      }
+      &::before{
+        content: '\2713';
+        background: #45b3e3;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        color:#FFFFFF;
+        min-width: 16px;
+        min-height: 16px;
+        max-width: 16px;
+        max-height: 16px;
+        border-radius: 50%;
+        font-family: ui-monospace;
+        padding-left: 2px;
+        margin-right: 7px;
+        margin-top: 3px;
+      }
+    }
+  }
+}
+
+.info-about{
+  padding: 72px 0;
+  background-color: #f4f4f4;
+  .info-about-title{
+    font-family: $samsung-700;
+    font-size: 36px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 34px;
+  }
+  .info-about-list{
+    margin: 0;
+    margin-bottom: 23px;
+    li{
+      font-size: 16px;
+      line-height: 22px;
+      color: #000000;
+      text-align: center;
+      font-family: $samsung-700;
+    }
+  }
+  .info-about__info-link{
+    max-width: 380px;
+    text-align: center;
+    margin: 0 auto;
+    font-family: $samsung-700;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #1979a3;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  .mini-describe{
+    display: block;
+    margin: 0;
+    margin-top: 31px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #000000;
+    text-align: center;
+  }
+}
+
+@media(max-width: 991px){
+  .brand-info-list{
+    padding-top: 32px;
+  }
+  .content-info{
+    padding-top: 45px;
+    padding-bottom: 35px;
+  }
+  .info-about{
+    padding:33px 0;
+  }
+}
+
+@media(max-width: 860px){
+  .info-about .info-about-title{
+    font-size: 27px;
+  }
+  .main-info-content {
+    padding-top: 15px;
+    .container{
+      overflow: auto;
+      //padding:0 5px;
+    }
+    .main-info-content-top-wrapper{
+      padding-bottom: 0px;
+    }
+    .main-info-content-top{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      overflow-y: hidden;
+      overflow-x: auto;
+      padding-bottom: 25px;
+      .main-info-content-top__title{
+        margin-right: 0;
+      }
+    }
+    .tab-content-info{
+      width: 100%;
+      .nav-item{
+        min-width: 150px;
+      }
+    }
+  }
+}
+
+@media(max-width: 580px){
+  p{
+    font-size: 15px;
+  }
+  .info-about {
+    .info-about-list li{
+      font-size: 13px;
+    }
+    .info-about-title{
+      font-size: 23px;
+      margin-bottom: 18px;
+    }
+    .mini-describe{
+      font-size: 14px;
+      margin-top: 18px;
+    }
+  }
+  .content-info .content-info__title-content{
+    font-size: 18px;
+  }
+  .start-menu-item-wrapper{
+    padding: 0 5px;
+  }
+  .brand-info-list{
+    margin-left: -10px;
+    margin-right: -10px;
+    .brand-info-list-item {
+      .brand-info-list-item__details{
+        font-size: 14px;
+        margin-top: 8px;
+      }
+      .brand-info-list-item__title{
+        font-size: 14px;
+      }
+      .brand-info-list-item-main{
+        padding: 21px 25px;
+      }
+    }
+  }
+}

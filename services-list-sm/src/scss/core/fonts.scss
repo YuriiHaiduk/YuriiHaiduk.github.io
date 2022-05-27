@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'SamsungOne 400';
+  src: url('../assets/fonts/SamsungOne-400.eot');
+  src: url('../assets/fonts/SamsungOne-400.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/SamsungOne-400.woff2') format('woff2'),
+  url('../assets/fonts/SamsungOne-400.woff') format('woff'),
+  url('../assets/fonts/SamsungOne-400.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SamsungOne 700';
+  src: url('../assets/fonts/SamsungOne-700.eot');
+  src: url('../assets/fonts/SamsungOne-700.eot?#iefix') format('embedded-opentype'),
+  url('../assets/fonts/SamsungOne-700.woff2') format('woff2'),
+  url('../assets/fonts/SamsungOne-700.woff') format('woff'),
+  url('../assets/fonts/SamsungOne-700.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
