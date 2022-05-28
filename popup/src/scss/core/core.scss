@@ -1,0 +1,74 @@
+*{
+  box-sizing: border-box;
+  outline: none;
+  outline-width: 0;
+}
+body{
+  overflow-x: hidden;
+  font-family: $samsung-400;
+  font-size: 16px;
+  color:$black;
+  background-color: #fefefc;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  max-width: 970px;
+  padding: 0px 15px;
+  margin:0 auto;
+  &.container--big{
+    max-width: 1170px;
+  }
+}
+.wrapper {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  min-height: 100vh;
+
+}
+.content {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+}
+.footer{
+  z-index: 1;
+}
+
+@media(min-width: 992px){
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+}
+
+input{
+  outline: none;
+}
+button{
+  outline: none;
+  border:none;
+  background: none;
+}
