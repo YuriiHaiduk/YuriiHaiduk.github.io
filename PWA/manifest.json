@@ -1,0 +1,17 @@
+{
+  "name": "ForecasterPWA",
+  "short_name": "ForPWA",
+  "theme_color": "#1189e8",
+  "background_color": "#1c85d9",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/.",
+  "icons": [
+    {
+      "src": "/icons/icn.png",
+      "sizes": "96x96",
+      "type":"image/png"
+    }
+  ]
+}
