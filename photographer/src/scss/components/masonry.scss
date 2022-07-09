@@ -1,0 +1,24 @@
+.masonry-wrapper{
+  //padding: 15px;
+}
+
+.masonry{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 40px;
+  .masonry-item{
+    position: absolute;
+    overflow: hidden;
+  }
+  .masonry-item__cover{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .masonry-item__image{
+    display: none;
+  }
+}
