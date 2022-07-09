@@ -23,28 +23,23 @@
                     <nav class="header-menu__body">
                         <ul class="header-menu__list">
                             <li>
-                                <a data-goto=".s-1" href="#" class="header-menu__link">
-                                    Item 1
+                                <a data-goto=".timeline" href="#" class="header-menu__link">
+                                   Steps
                                 </a>
                             </li>
                             <li>
-                                <a data-goto=".s-2" href="#" class="header-menu__link">
-                                    Item 2
+                                <a data-goto=".about-text-block-wrapper" href="#" class="header-menu__link">
+                                    About
                                 </a>
                             </li>
                             <li>
-                                <a data-goto=".s-3" href="#" class="header-menu__link">
-                                    Item 3
+                                <a data-goto=".cards-wrapper" href="#" class="header-menu__link">
+                                    Types
                                 </a>
                             </li>
                             <li>
-                                <a data-goto=".s-4" href="#" class="header-menu__link">
-                                    Item 4
-                                </a>
-                            </li>
-                            <li>
-                                <a data-goto=".s-5" href="#" class="header-menu__link">
-                                    Item 5
+                                <a data-goto=".masonry-wrapper" href="#" class="header-menu__link">
+                                    Gallery
                                 </a>
                             </li>
                         </ul>
@@ -64,8 +59,83 @@
         </header>
 
         <div class="content-page">
+<!--            <div class="gallery">-->
+<!--                <div class="galleryItem">-->
+<!--                    <div class="card">-->
+<!--                        <a class="cardLink" href="./assets/images/gallery/gallery-1-min.jpg" target="_blank" data-title="Spider plant" data-description="Pet friendly">-->
+<!--                            <div class="cardContent">-->
+<!--                                <h3 class="cardTitle">Spider plant</h3>-->
+<!--                                <p class="cardDescription">Pet friendly</p>-->
+<!--                            </div>-->
+<!--                            <div class="cardHover"></div>-->
+<!--                            <img class="cardImage" src="./assets/images/gallery/gallery-1-min.jpg" alt="Spider plant" />-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="galleryItem">-->
+<!--                    <div class="card">-->
+<!--                        <a class="cardLink" href="./assets/images/gallery/gallery-2.jpg" target="_blank" data-title="Pilea Peperomioides" data-description="Ideal for beginners">-->
+<!--                            <div class="cardContent">-->
+<!--                                <h3 class="cardTitle">Pilea Peperomioides</h3>-->
+<!--                                <p class="cardDescription">Ideal for beginners</p>-->
+<!--                            </div>-->
+<!--                            <div class="cardHover"></div>-->
+<!--                            <img class="cardImage" src="./assets/images/gallery/gallery-2.jpg" alt="Pilea Peperomioides">-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="galleryItem">-->
+<!--                    <div class="card">-->
+<!--                        <a class="cardLink" href="./assets/images/gallery/gallery-3.jpg" target="_blank" data-title="Swiss Cheese Plant" data-description="Toxic to pets">-->
+<!--                            <div class="cardContent">-->
+<!--                                <h3 class="cardTitle">Swiss Cheese Plant</h3>-->
+<!--                                <p class="cardDescription">Toxic to pets</p>-->
+<!--                            </div>-->
+<!--                            <div class="cardHover"></div>-->
+<!--                            <img class="cardImage" src="./assets/images/gallery/gallery-3.jpg" alt="Swiss Cheese Plant" />-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="galleryItem">-->
+<!--                    <div class="card">-->
+<!--                        <a class="cardLink" href="./assets/images/gallery/gallery-4.jpg" target="_blank" data-title="The Unkillables plant bundle" data-description="Outdoor plant">-->
+<!--                            <div class="cardContent">-->
+<!--                                <h3 class="cardTitle">The Unkillables plant bundle</h3>-->
+<!--                                <p class="cardDescription">Outdoor plant</p>-->
+<!--                            </div>-->
+<!--                            <div class="cardHover"></div>-->
+<!--                            <img class="cardImage" src="./assets/images/gallery/gallery-4.jpg" alt="The Unkillables plant bundle">-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="galleryItem">-->
+<!--                    <div class="card">-->
+<!--                        <a class="cardLink" href="./assets/images/gallery/gallery-5.jpg" target="_blank" data-title="Pineapple plant" data-description="Indoor plant">-->
+<!--                            <div class="cardContent">-->
+<!--                                <h3 class="cardTitle">Pineapple plant</h3>-->
+<!--                                <p class="cardDescription">Indoor plant</p>-->
+<!--                            </div>-->
+<!--                            <div class="cardHover"></div><img class="cardImage" src="./assets/images/gallery/gallery-5.jpg" alt="Pineapple plant" />-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="galleryItem">-->
+<!--                    <div class="card">-->
+<!--                        <a class="cardLink" href="./assets/images/gallery/gallery-6.jpg" target="_blank" data-title="Rubber plant" data-description="Low light levels">-->
+<!--                            <div class="cardContent">-->
+<!--                                <h3 class="cardTitle">Rubber plant</h3>-->
+<!--                                <p class="cardDescription">Low light levels</p>-->
+<!--                            </div>-->
+<!--                            <div class="cardHover"></div>-->
+<!--                            <img class="cardImage" src="./assets/images/gallery/gallery-6.jpg" alt="Rubber plant" />-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
             <div class="hero-block">
-                <h1 class="hero-block__title">Not just a photo</h1>
+                <h1 class="hero-block__title" >Not just a photo</h1>
                 <a href="#" data-goto=".photo-card-block" class="indicator-wrapper">
                     <div class="indicator">
                         <span></span>
@@ -165,43 +235,127 @@
                     Photography is a kind of art nowadays. Many photographers hold exhibitions where they show their best photos of landscapes, people and things. I think photography is a good and interesting activity. It broadens the mind and makes the life interesting and eventful.
                 </div>
             </section>
-            <div class="cards-wrapper">
-                <div class="container">
-                    <div class="cards-wrapper__title">
-                        Types of services
-                    </div>
-                    <div class="cards">
-                        <div class="card card1">
-                            <div class="card-container">
-                                <img src="assets/images/phtcard.jpg" alt="las vegas">
-                            </div>
-                            <div class="details">
-                                <h3>Las Vegas</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
-                            </div>
-                        </div>
-                        <div class="card card2">
-                            <div class="card-container">
-                                <img src="assets/images/phtcard.jpg" alt="New York">
-                            </div>
-                            <div class="details">
-                                <h3>New York</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+            <section class="section cards-wrapper">
+                <div class="container container--small">
+                    <h2 class="section__title wow fadeInUp" data-wow-duration="1.8s" data-wow-delay="0.3s">
+                        <span class="blue-mark">T</span>yp<span class="blue-mark">e</span>s o<span class="blue-mark">f</span> ser<span class="blue-mark">v</span>ice<span class="blue-mark">s</span>
+                    </h2>
+                    <div class="card-list row">
+                        <div class="col-md-4">
+                            <div class="card wow slideInLeft" data-wow-duration="1.4s" data-wow-delay="0.2s">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <div class="card-content">
+                                    <h3>01</h3>
+                                    <h4>Standart</h4>
+                                    <p>
+                                        1.5 hours of shooting, 15 processed photos and sources
+                                    </p>
+                                    <a href="#">Take a contact</a>
+                                </div>
                             </div>
                         </div>
-                        <div class="card card3">
-                            <div class="card-container">
-                                <img src="assets/images/phtcard.jpg" alt="Singapore">
+                        <div class="col-md-4">
+                            <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <div class="card-content">
+                                    <h3>02</h3>
+                                    <h4>Standart+</h4>
+                                    <p>
+                                        2 hours of shooting 25 processed photos and sources
+                                    </p>
+                                    <a href="#">Take a contact</a>
+                                </div>
                             </div>
-                            <div class="details">
-                                <h3>Singapore</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dignissimos, minus aperiam adipisci exercitationem.</p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card wow slideInRight" data-wow-duration="1.4s" data-wow-delay="0.2s">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <div class="card-content">
+                                    <h3>03</h3>
+                                    <h4>Premium</h4>
+                                    <p>
+                                        3 hour shooting 40 processed photos and sources + bonus PR for your page on my profile
+                                    </p>
+                                    <a href="#">Take a contact</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+            <section class="masonry-wrapper section">
+                <h2 class="section__title wow fadeInUp" data-wow-duration="1.8s" data-wow-delay="0.3s">
+                    <span class="blue-mark">G</span>all<span class="blue-mark">e</span>ry
+                </h2>
+                <div class="masonry" id="masonry">
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="1500" data-height="1500">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-1-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-1-min.jpg" alt="image">
+                    </div>
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="793" data-height="528">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-2-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-2-min.jpg" alt="image">
+                    </div>
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="1184" data-height="789">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-3-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-3-min.jpg" alt="image">
+                    </div>
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="1000" data-height="1333">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-8-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-8-min.jpg" alt="image">
+                    </div>
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="984" data-height="656">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-4-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-4-min.jpg" alt="image">
+                    </div>
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="1000" data-height="1333">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-13-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-13-min.jpg" alt="image">
+                    </div>
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="1184" data-height="789">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-5-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-5-min.jpg" alt="image">
+                    </div>
 
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="700" data-height="933">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-12-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-12-min.jpg" alt="image">
+                    </div>
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="816" data-height="699">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-6-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-6-min.jpg" alt="image">
+                    </div>
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="1000" data-height="1336">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-10-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-10-min.jpg" alt="image">
+                    </div>
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="900" data-height="675">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-7-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-7-min.jpg" alt="image">
+                    </div>
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="1000" data-height="1333">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-9-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-9-min.jpg" alt="image">
+                    </div>
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="800" data-height="600">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-11-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-11-min.jpg" alt="image">
+                    </div>
+                    <div class="masonry-item wow fadeInUp" data-wow-duration="1.4s" data-wow-delay="0.2s" data-width="918" data-height="612">
+                        <div class="masonry-item__cover" style="background-image: url('assets/images/gallery/gallery-14-min.jpg')"></div>
+                        <img class="masonry-item__image" src="assets/images/gallery/gallery-14-min.jpg" alt="image">
+                    </div>
+                </div>
+            </section>
         </div>
 
     </div>
@@ -220,11 +374,6 @@
 <div id="aura"></div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
-<!--<script src="assets/libs/wow.min.js"></script>-->
-<!--<script>     new WOW().init();</script>-->
-
-<!--<script src="//cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>-->
-<!--<script>new WOW().init();</script>-->
 
 </body>
 </html>

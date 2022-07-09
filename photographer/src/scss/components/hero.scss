@@ -14,9 +14,21 @@
     color:#FFFFFF;
     font-size: 90px;
     width: 100%;
+    z-index: 0;
+
   }
 }
 
+@keyframes opacityW {
+  0%{
+    opacity: 0;
+    width: 0;
+  }
+  100%{
+    width: 100%;
+    opacity: 1;
+  }
+}
 
 
 .indicator-wrapper{

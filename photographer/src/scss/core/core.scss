@@ -8,6 +8,7 @@ body{
   font-family: $font-montserrat;
   font-size: 16px;
   color:$black;
+  background: $black;
 
 }
 ul{
@@ -21,6 +22,9 @@ a{
   max-width: 1560px;
   padding: 0px 15px;
   margin:0 auto;
+  &.container--small{
+    max-width: 1170px;
+  }
 }
 .wrapper {
   //overflow: hidden;
@@ -40,6 +44,10 @@ a{
 .blue-mark{
   color: #199fff;
   text-shadow: 0 5px 25px #199fff, 0 5px 50px #199fff;
+}
+.golden-mark{
+  color: gold;
+  text-shadow: 0 5px 25px rgba(222, 189, 16, 0.85), 0 5px 50px #f6d217;
 }
 
 @media(min-width: 992px){
@@ -86,6 +94,38 @@ button{
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.section__title{
+  color:#ffffff;
+  font-size: 38px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+@media(max-width: 1200px){
+  .section__title{
+    font-size: 35px;
+  }
+}
+@media(max-width: 991px){
+  .section__title{
+    font-size: 31px;
+  }
+}
+
+@media(max-width: 767px){
+  .section__title{
+    font-size: 27px;
+  }
+}
+
+@media(max-width: 580px){
+  .section__title{
+    font-size: 23px;
+  }
+}
+
+
 
 
 

@@ -21,7 +21,7 @@ window.onload = function () {
                 const menuLink = e.target;
                 if(menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)){
                     const gotoBlock = document.querySelector(menuLink.dataset.goto);
-                    const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector('header').offsetHeight
+                    const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset + document.querySelector('header').offsetHeight
                     window.scrollTo({
                         top:gotoBlockValue,
                         behavior:"smooth"
@@ -184,42 +184,6 @@ window.onload = function () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-    // to top btn
-    // if(document.querySelector('.btn-to-top')){
-    //     let toTopBtn = document.querySelector('.btn-to-top');
-    //     let timeOutScroll;
-    //
-    //     function topBtnScroll() {
-    //         if (pageYOffset >= document.documentElement.clientHeight) {
-    //             toTopBtn.classList.add('active');
-    //         } else {
-    //             toTopBtn.classList.remove('active');
-    //         }
-    //     }
-    //
-    //     window.addEventListener('scroll', topBtnScroll);
-    //
-    //     function toTop() {
-    //         let top = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
-    //         if (top > 0) {
-    //             window.scrollBy(0, -100);
-    //             timeOutScroll = setTimeout(toTop, 20);
-    //         } else {
-    //             clearTimeout(timeOutScroll);
-    //         }
-    //     }
-    //     toTopBtn.addEventListener('click', toTop);
-    // }
 
 
 
