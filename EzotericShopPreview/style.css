@@ -1,4 +1,6 @@
-
+body{
+    background: #000000;
+}
 *{
     padding: 0;
     margin: 0;
@@ -276,14 +278,24 @@
 
 
 .eye-and-icons-wrapper{
-    transform: scale(1.25);
+   /* transform: scale(1.25);*/
     position: relative;
-    padding: 80px;
+    padding: 45px;
     border:1px solid rgba(255,255,255,0);
     border-radius: 50%;
     background: linear-gradient(0deg, #000, #000);
     z-index: 222;
     animation:eye-wrapper-animation 2s linear 2.5s forwards, box-shadow-effect 0.8s linear 4.5s;
+}
+@media (min-width: 2100px) {
+    .eye-and-icons-wrapper {
+        transform: scale(1.35);
+    }
+}
+@media (min-width: 2900px) {
+    .eye-and-icons-wrapper {
+        transform: scale(2.35);
+    }
 }
 .eye-and-icons-wrapper::before{
     content: '';

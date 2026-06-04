@@ -192,6 +192,7 @@ mark{
 
 
 .cloud {
+    z-index: -1;
     overflow: hidden;
     /*position: relative;*/
     position: absolute;
